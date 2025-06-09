@@ -1,5 +1,5 @@
 // this place is reserved for Yadesa Mulugeta to Develop the main game loop to control the flow of the game.
-// ------------------ utils.cpp ------------------
+
 #include "snake.h"
 #include <iostream>
 #include <thread>
