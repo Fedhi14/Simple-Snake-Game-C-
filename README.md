@@ -1,2 +1,86 @@
-# Simple-Snake-Game-C-
-The Snake Game is a classic arcade-style console game implemented in C++ using fundamental data structures and algorithms.
+# 🐍 Simple Snake Game in C++
+
+## 🎮 Game Description
+
+This is a **console-based Snake Game** implemented in C++ as part of our DSA (Data Structures and Algorithms) coursework. The player controls a snake to collect fruits (`o`) on the board without colliding with itself or the wall. The snake grows longer with each fruit, increasing the difficulty.
+
+The game is played using keyboard arrow keys and displays a bordered game board made of asterisks (`*`) for better aesthetics.
+
+---
+
+## 🧠 How the Game Uses DSA Concepts
+
+This project demonstrates the practical use of **fundamental data structures and algorithms**:
+
+- **Arrays**: Used to store the positions of the snake and fruit.
+- **Structs**: To define and organize the snake's position data.
+- **Queue/Linked List Logic**: Simulated using arrays to manage the snake’s growth (head/tail).
+- **Algorithms**:
+  - **Collision Detection** (with wall and itself)
+  - **Snake Movement Update**
+  - **Fruit Randomization**
+  - **Game Loop Control**
+
+---
+
+## 🛠️ How It Works
+
+1. The game initializes a board and the snake.
+2. A fruit is randomly generated on the board.
+3. Arrow keys are used to change direction.
+4. The snake moves one step in the current direction.
+5. If the snake eats the fruit, its length increases.
+6. The game ends if the snake collides with the wall or itself.
+7. The player is prompted to play again or exit.
+
+---
+
+## 📂 Project Structure
+Simple-Snake-Game-C-/
+│
+├── main.cpp // Game loop & overall control
+├── snake.cpp // Snake movement, growth, and collision
+├── board.cpp // Drawing the game board
+├── input.cpp // Handling player keyboard input
+├── utils.cpp // Utility functions (e.g., screen clear)
+├── snake.h // Header declarations
+├── README.md // Project documentation
+
+
+---
+
+## 👥 Group Members & Assigned Tasks
+
+| Name                   GitHub username          Assigned File / Task                    
+
+ **Yadesa Mulugeta**       @yadesaML01             Project lead, `main.cpp`, README setup  
+ **Misiker Daniel**         @misiker0                `board.cpp` – Design and render board   
+ **Yordanos Mesay** and    @Yordi96               `utils.cpp` – Utility &  
+ **Demanesh Gelu**         @dema8040                         screen functions                               
+  **Yitnaw Bataneh**       @yitnaw                `input.cpp` – Keyboard input handling    
+ **Yabets Mulu **          @Jabez-20              `snake.cpp` – Snake logic implementation 
+ **Metsnanat Awraris**     @Metsi1               `snake.h` – Struct & function declarations 
+
+
+> ✅ All members collaborated using GitHub. Each task was created under the Issues section, and members were assigned accordingly for contribution and version control.
+
+---
+
+## 📌 Future Improvements
+
+- Add score tracking
+- Add levels and speed increase
+- Implement obstacles and sound
+- Cross-platform input handling (non-blocking keys)
+
+---
+
+## 📫 Contact
+
+
+
+---
+
+**Made with ❤️ by DSA Team**
+
+
