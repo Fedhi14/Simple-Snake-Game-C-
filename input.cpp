@@ -5,5 +5,6 @@ void getInput() {
   if (_kbhit () ) {
 char ch = _getch();
 switch (ch) { 
+case 'w' : if (direction !=  DOWN) direction = UP; break ;
 
 
