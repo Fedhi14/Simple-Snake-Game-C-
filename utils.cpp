@@ -3,6 +3,10 @@
 #include "snake.h"
 #include <cstdlib>
 #include <iostream>
+void clearScreen() {
+
+}
+
 
 
 
