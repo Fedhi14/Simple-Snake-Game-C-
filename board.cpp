@@ -14,4 +14,6 @@ void printBoard(){
           if (segment == std::make_pair(i, j)) {
                 std::cout << "o";
                printed = true;
+              break;
+                    }
    
