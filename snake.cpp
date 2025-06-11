@@ -44,7 +44,7 @@ if (head.first <=0 || head.first >= HEIGHT-1 || head.second >= WIDTH-1) {
 }
 for (size_t i=1; i < snake.size() ; ++i) {
 if (snake[i] == head) {
-gameOver=true
+gameOver=true;
   }
 }
 ]
