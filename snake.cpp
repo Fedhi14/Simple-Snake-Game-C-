@@ -35,3 +35,4 @@ generateFruit();
 }else {
 snake.pop_back();
 }
+}
