@@ -27,3 +27,18 @@ case LEFT: head.second--; break;
 case RIGHT: head.second++; break;
 }
 
+
+<<<<<<< HEAD
+snake.push_front(head);
+if (head == fruit) {
+score++;
+generateFruit();
+}else {
+snake.pop_back();
+}
+}
+
+
+
+=======
+>>>>>>> d683059efbe29fc5dd81c46c5912101926543c44
