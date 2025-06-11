@@ -8,7 +8,7 @@ void clearScreen() {
     std:: system("cls");
     #else
     std:: system("clear");
-
+    #endif
 }
 
 
