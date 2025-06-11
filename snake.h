@@ -21,3 +21,12 @@ void initializeGame();
 void moveSnake();
 void checkCollision();
 void generateFruit();
+
+// UI
+void printBoard();
+void clearScreen();
+void getInput();
+bool playAgainPrompt();
+void showWelcome();
+
+#endif
