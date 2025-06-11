@@ -49,4 +49,4 @@ gameOver=true;
 }
 }
 
-void generateFruit() [
+void generateFruit() {
