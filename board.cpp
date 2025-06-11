@@ -2,4 +2,4 @@
 #include "snake.h"
 #include <iostream> 
 void printBoard(){
-
+              for (int i,i<8,i++)
