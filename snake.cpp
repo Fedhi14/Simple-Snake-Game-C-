@@ -48,3 +48,5 @@ gameOver=true;
   }
 }
 }
+
+void generateFruit() [
