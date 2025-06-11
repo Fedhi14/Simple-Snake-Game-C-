@@ -2,4 +2,6 @@
 #include "snake.h"
 #include <iostream> 
 void printBoard(){
-              for (int i,i<8,i++)
+    for (int i;i<HEIGHT; ++i) {
+     for(int j;j<WIDTH;++j)
+   
