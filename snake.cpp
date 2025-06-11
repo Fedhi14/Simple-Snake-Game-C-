@@ -31,16 +31,17 @@ snake.push_front(head);
 if (head == fruit) {
 score++;
 generateFruit();
-}else {
+}
+else {
 snake.pop_back();
 }
 }
 
 void checkCollision() {
 auto head = snake.front();
-  if (head.first <=0 || head.first >= HEIGHT-1 || head.second >= WIDTH-1) {
+  if (head.first <=0 || head.first >= HEIGHT-1 || head.second >= WIDTH-1)
+  {
  gameOver = true;
-
 }
 
 for (size_t i=1; i < snake.size() ; ++i)
