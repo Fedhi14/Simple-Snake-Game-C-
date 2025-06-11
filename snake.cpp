@@ -12,7 +12,8 @@ std::pair<int, int> fruit;
 void initializeGame() {
   snake.clear();
 snake.push_back({Height / 2, WIDTH / 2});
-direction = 0;
+direction = RIGHT;
+  score = 0;
 gameOver = false;
 generateFruit();
 }
