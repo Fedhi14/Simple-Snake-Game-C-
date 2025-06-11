@@ -37,15 +37,15 @@ This project demonstrates the practical use of **fundamental data structures and
 
 ## 📂 Project Structure
 
-Simple-Snake-Game-C-/
-│
-├── main.cpp // Game loop & overall control
-├── snake.cpp // Snake movement, growth, and collision
-├── board.cpp // Drawing the game board
-├── input.cpp // Handling player keyboard input
-├── utils.cpp // Utility functions (e.g., screen clear)
-├── snake.h // Header declarations
-├── README.md // Project documentation
+| **File**        | **Description**                                 |
+|-----------------|-------------------------------------------------|
+| `main.cpp`      | Game loop & overall control                     |
+| `snake.cpp`     | Snake movement, growth, and collision logic     |
+| `board.cpp`     | Drawing the game board                          |
+| `input.cpp`     | Handling player keyboard input                  |
+| `utils.cpp`     | Utility functions (e.g., screen clear)          |
+| `snake.h`       | Struct and function declarations                |
+| `README.md`     | Project documentation                           |
 
 ---
 
