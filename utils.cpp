@@ -18,6 +18,11 @@ bool playAgainPrompt() {
     return choice == 'y' || choice == 'Y';
 }
 
+void showWelcome() {
+    std::cout << "\n*************** Welcome to Snake Game ***************\n";
+    std::cout << "Use W A S D to move. Eat o and avoid hitting yourself or borders.\n";
+    std::cout << "****************************************************\n\n";
+}
 
 
 
