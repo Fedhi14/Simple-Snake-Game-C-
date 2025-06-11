@@ -32,4 +32,6 @@ snake.push_front(head);
 if (head == fruit) {
 score++;
 generateFruit();
-}else
+}else {
+snake.pop_back();
+}
