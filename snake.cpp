@@ -52,6 +52,10 @@ gameOver=true;
 }
 
 void generateFruit()
+{
+  fruit = {rand() % (HEIGHT - 2) + 1, rand() % (WIDTH - 2) + 1
+}
+
 
 
 
