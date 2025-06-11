@@ -38,3 +38,4 @@ snake.pop_back();
 }
 
 void checkCollision() {
+auto head = snake.front();
