@@ -27,28 +27,3 @@ case LEFT: head.second--; break;
 case RIGHT: head.second++; break;
 }
 
-snake.push_front(head);
-
-if (head == fruit) {
-score++;
-generateFruit();
-}else {
-snake.pop_back();
-}
-}
-
-void checkCollision() {
-auto head = snake.front();
-if (head.first <=0 || head.first >= HEIGHT-1 || head.second >= WIDTH-1) {
- gameOver = true;
-}
-for (size_t i=1; i < snake.size() ; ++i) {
-if (snake[i] == head) {
-gameOver=true;
-  }
-}
-}
-
-void generateFruit() {
-  fruit = {rand() % (HEIGHT - 2) + 1, rand() % (WIDTH - 2) + 1
-}
