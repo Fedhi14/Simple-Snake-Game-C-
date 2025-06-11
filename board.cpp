@@ -21,3 +21,6 @@ void printBoard(){
             }
         }
         std::cout << '\n';
+}
+    std::cout << "Score: " << score << "\n";
+
