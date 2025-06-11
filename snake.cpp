@@ -27,8 +27,6 @@ case LEFT: head.second--; break;
 case RIGHT: head.second++; break;
 }
 
-
-<<<<<<< HEAD
 snake.push_front(head);
 if (head == fruit) {
 score++;
