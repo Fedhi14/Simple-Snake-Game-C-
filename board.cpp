@@ -8,4 +8,6 @@ void printBoard(){
      std :: cout<<"*";
     } else if (std::make_pair(i, j) == snake.front()) {
      std::cout << "o"; 
+    } else {
+          bool printed = false;
    
