@@ -11,6 +11,12 @@ void clearScreen() {
     #endif
 }
 
+bool playAgainPrompt() {
+    char choice;
+    std::cout << "Play Again? (y/n): ";
+    std::cin >> choice;
+    return choice == 'y' || choice == 'Y';
+}
 
 
 
