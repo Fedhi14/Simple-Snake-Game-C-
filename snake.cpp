@@ -26,3 +26,5 @@ case DOWN: head.first++; break;
 case LEFT: head.second--; break;
 case RIGHT: head.second++; break;
 }
+
+snake.push_front(head);
