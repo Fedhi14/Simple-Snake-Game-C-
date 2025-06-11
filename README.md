@@ -36,6 +36,7 @@ This project demonstrates the practical use of **fundamental data structures and
 ---
 
 ## 📂 Project Structure
+
 Simple-Snake-Game-C-/
 │
 ├── main.cpp // Game loop & overall control
@@ -45,7 +46,6 @@ Simple-Snake-Game-C-/
 ├── utils.cpp // Utility functions (e.g., screen clear)
 ├── snake.h // Header declarations
 ├── README.md // Project documentation
-
 
 ---
 
@@ -60,7 +60,6 @@ Simple-Snake-Game-C-/
 | **Yitnaw Bataneh**     | @yitnaw             | NSR/1049/16    | `input.cpp` – Keyboard input handling                      |
 | **Yabets Mulu**        | @Jabez-20           | NSR/1017/16    | `snake.cpp` – Snake logic implementation                   |
 | **Metsnanat Awraris**  | @Metsi1             | NSR/1494/16    | `snake.h` – Struct & function declarations                 |
-
 
 
 
