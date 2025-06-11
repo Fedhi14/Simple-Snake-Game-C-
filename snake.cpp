@@ -17,3 +17,7 @@ direction = RIGHT;
 gameOver = false;
 generateFruit();
 }
+
+void moveSnake() {
+  auto head = snake.fron();
+switch (direction) {
