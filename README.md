@@ -49,15 +49,18 @@ Simple-Snake-Game-C-/
 
 ---
 
-👥 Group Members & Assigned Tasks
-Name	GitHub Username	ID Number	Assigned File / Task
-Yadesa Mulugeta	@yadesaML01	NSR/1605/16	Project lead, main.cpp, README setup
-Misiker Daniel	@misiker0	NSR/708/16	board.cpp – Design and render board
-Yordanos Mesay	@Yordi96	NSR/1634/16	utils.cpp – Utility & screen functions (with Demanesh)
-Demanesh Gelu	@dema8040	NSR/264/16	utils.cpp – Utility & screen functions (with Yordanos)
-Yitnaw Bataneh	@yitnaw	NSR/1049/16	input.cpp – Keyboard input handling
-Yabets Mulu	@Jabez-20	NSR/1017/16	snake.cpp – Snake logic implementation
-Metsnanat Awraris	@Metsi1	NSR/1494/16	snake.h – Struct & function declarations
+## 👥 Group Members & Assigned Tasks
+
+| **Name**               | **GitHub Username** | **ID Number**  | **Assigned File / Task**                                  |
+|------------------------|---------------------|----------------|------------------------------------------------------------|
+| **Yadesa Mulugeta**    | @yadesaML01         | NSR/1605/16    | Project lead, `main.cpp`, README setup                     |
+| **Misiker Daniel**     | @misiker0           | NSR/708/16     | `board.cpp` – Design and render board                      |
+| **Yordanos Mesay**     | @Yordi96            | NSR/1634/16    | `utils.cpp` – Utility & screen functions (with Demanesh)   |
+| **Demanesh Gelu**      | @dema8040           | NSR/264/16     | `utils.cpp` – Utility & screen functions (with Yordanos)   |
+| **Yitnaw Bataneh**     | @yitnaw             | NSR/1049/16    | `input.cpp` – Keyboard input handling                      |
+| **Yabets Mulu**        | @Jabez-20           | NSR/1017/16    | `snake.cpp` – Snake logic implementation                   |
+| **Metsnanat Awraris**  | @Metsi1             | NSR/1494/16    | `snake.h` – Struct & function declarations                 |
+
 
 
 
