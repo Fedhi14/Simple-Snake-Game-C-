@@ -28,3 +28,6 @@ case RIGHT: head.second++; break;
 }
 
 snake.push_front(head);
+
+if (head == fruit) {
+score++;
