@@ -47,4 +47,4 @@ if (snake[i] == head) {
 gameOver=true;
   }
 }
-]
+}
