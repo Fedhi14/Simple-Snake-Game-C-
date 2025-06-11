@@ -13,4 +13,5 @@ void printBoard(){
            for (auto segment : snake) {
           if (segment == std::make_pair(i, j)) {
                 std::cout << "o";
+               printed = true;
    
