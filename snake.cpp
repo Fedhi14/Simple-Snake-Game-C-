@@ -41,3 +41,4 @@ void checkCollision() {
 auto head = snake.front();
 if (head.first <=0 || head.first >= HEIGHT-1 || head.second >= WIDTH-1) {
  gameOver = true;
+}
