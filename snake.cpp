@@ -23,3 +23,4 @@ void moveSnake() {
 switch (direction) {
 case UP: head.first--; break;
 case DOWN: head.first++; break;
+case LEFT: head.second--; break;
