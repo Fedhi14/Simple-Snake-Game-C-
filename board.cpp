@@ -17,3 +17,4 @@ void printBoard(){
               break;
                     }
               }
+             if (!printed) std::cout << " ";
