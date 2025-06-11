@@ -3,7 +3,7 @@
 #include <conio.h>
 void getInput() {
   if (_kbhit () ) {
-char ch = _getch();
+char ch = _gEtch();
 switch (ch) { 
   case 'w' : if (direction != DOWN) direction = UP; break ;
 case 's' : if (direction != UP) direction = DOWN; break ;
