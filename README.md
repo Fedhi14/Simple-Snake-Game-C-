@@ -49,24 +49,16 @@ Simple-Snake-Game-C-/
 
 ---
 
-## 👥 Group Members & Assigned Tasks
+👥 Group Members & Assigned Tasks
+Name	GitHub Username	ID Number	Assigned File / Task
+Yadesa Mulugeta	@yadesaML01	NSR/1605/16	Project lead, main.cpp, README setup
+Misiker Daniel	@misiker0	NSR/708/16	board.cpp – Design and render board
+Yordanos Mesay	@Yordi96	NSR/1634/16	utils.cpp – Utility & screen functions (with Demanesh)
+Demanesh Gelu	@dema8040	NSR/264/16	utils.cpp – Utility & screen functions (with Yordanos)
+Yitnaw Bataneh	@yitnaw	NSR/1049/16	input.cpp – Keyboard input handling
+Yabets Mulu	@Jabez-20	NSR/1017/16	snake.cpp – Snake logic implementation
+Metsnanat Awraris	@Metsi1	NSR/1494/16	snake.h – Struct & function declarations
 
-| Name  -------------------    GitHub username------------------          Assigned File / Task     
--------------------------------------------------------------------------------------------------------------------
-
- **Yadesa Mulugeta**       @yadesaML01 --------------------            Project lead, `main.cpp`, README setup  
- --------------------------------------------------------------------------------------------------------------------
- **Misiker Daniel**         @misiker0 --------------------              `board.cpp` – Design and render board   
- -------------------------------------------------------------------------------------------------------------------
- **Yordanos Mesay** and    @Yordi96 --------------------                `utils.cpp` – Utility &  
- **Demanesh Gelu**         @dema8040 --------------------                          screen functions  
- --------------------------------------------------------------------------------------------------------------------
-  **Yitnaw Bataneh**       @yitnaw  --------------------                `input.cpp` – Keyboard input handling 
-  --------------------------------------------------------------------------------------------------------------------
- **Yabets Mulu **          @Jabez-20 --------------------               `snake.cpp` – Snake logic implementation 
- ---------------------------------------------------------------------------------------------------------------------
- **Metsnanat Awraris**     @Metsi1   --------------------              `snake.h` – Struct & function declarations 
- ------------------------------------------------------------------------------------------------------------------------
 
 
 > ✅ All members collaborated using GitHub. Each task was created under the Issues section, and members were assigned accordingly for contribution and version control.
