@@ -36,3 +36,5 @@ generateFruit();
 snake.pop_back();
 }
 }
+
+void checkCollision() {
