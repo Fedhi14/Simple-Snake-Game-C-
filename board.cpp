@@ -10,4 +10,5 @@ void printBoard(){
      std::cout << "o"; 
     } else {
           bool printed = false;
+           for (auto segment : snake) {
    
