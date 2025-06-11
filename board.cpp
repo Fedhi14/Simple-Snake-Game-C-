@@ -18,3 +18,5 @@ void printBoard(){
                     }
               }
              if (!printed) std::cout << " ";
+            }
+        }
