@@ -25,3 +25,4 @@ case UP: head.first--; break;
 case DOWN: head.first++; break;
 case LEFT: head.second--; break;
 case RIGHT: head.second++; break;
+}
