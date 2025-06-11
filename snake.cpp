@@ -22,3 +22,4 @@ void moveSnake() {
   auto head = snake.fron();
 switch (direction) {
 case UP: head.first--; break;
+case DOWN: head.first++; break;
