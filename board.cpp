@@ -3,5 +3,6 @@
 #include <iostream> 
 void printBoard(){
     for (int i;i<HEIGHT; ++i) {
-     for(int j;j<WIDTH;++j)
+     for(int j;j<WIDTH;++j) {
+    if (i == 0|| i == HEIGHT-1 || j == 0 || j == WIDTH-1) {
    
