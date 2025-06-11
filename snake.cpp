@@ -43,6 +43,8 @@ auto head = snake.front();
 
 }
 
+for (size_t i=1; i < snake.size() ; ++i)
+
 
 
 
