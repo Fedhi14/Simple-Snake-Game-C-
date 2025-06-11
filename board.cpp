@@ -20,3 +20,4 @@ void printBoard(){
              if (!printed) std::cout << " ";
             }
         }
+        std::cout << '\n';
