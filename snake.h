@@ -4,3 +4,7 @@
 
 #include <deque>
 #include <utility>
+
+const int WIDTH = 40;
+const int HEIGHT = 20;
+
